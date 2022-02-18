@@ -1,0 +1,6 @@
+frontend:
+  - /frontend/**/*
+backend:
+  - /backend/**/*
+i18n:
+  - /text/**/*
