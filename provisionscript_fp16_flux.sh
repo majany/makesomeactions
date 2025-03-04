@@ -26,7 +26,7 @@ WORKFLOWS=(
 
 CHECKPOINT_MODELS=(
     #"https://civitai.com/api/download/models/798204?type=Model&format=SafeTensor&size=full&fp=fp16"
-    "https://civitai.com/api/download/models/1413133?type=Model&format=SafeTensor&size=full&fp=fp16"
+    #"https://civitai.com/api/download/models/1413133?type=Model&format=SafeTensor&size=full&fp=fp16"
     "https://civitai.com/api/download/models/1031531?type=Model&format=SafeTensor&size=full&fp=fp8"
 )
 
