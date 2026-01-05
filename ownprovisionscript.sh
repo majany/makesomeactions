@@ -6,6 +6,6 @@ wget https://raw.githubusercontent.com/majany/makesomeactions/refs/heads/main/mo
 
 sed -i "s|%civitai_token%|${CIVITAI_TOKEN}|g" modelstodownload.txt
 
-aria2c -i modelstodownload.txt -j2 -x 16 -s 16
+aria2c -i modelstodownload.txt -j2 -x 16 -s 16 -c --allow-overwrite=false
 
 # download and run: curl -sSL https://raw.githubusercontent.com/majany/makesomeactions/refs/heads/main/ownprovisionscript.sh | bash
