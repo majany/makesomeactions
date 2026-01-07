@@ -1,6 +1,6 @@
 frontend:
-  - /frontend/**/*
+- frontend/**/*
 backend:
-  - /backend/**/*
+- backend/**/*
 i18n:
-  - /text/**/*
+- text/**/*
